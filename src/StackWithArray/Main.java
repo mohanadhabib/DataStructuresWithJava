@@ -46,9 +46,9 @@ public class Main {
         s.push(1);
         s.push(2);
         s.push(3);
-        s.push(4);
-        s.pop();
-        s.print();
-        System.out.println("Top : " + s.getTop());
+        s.push(4); // 4 3 2 1
+        s.pop(); // 3 2 1
+        s.print(); // 3 2 1
+        System.out.println("Top : " + s.getTop()); // 3
     }
 }
